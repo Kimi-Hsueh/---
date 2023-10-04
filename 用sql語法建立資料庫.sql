@@ -34,3 +34,4 @@ exec sp_attach_db kimi_test, 'C:\2023_Python\各項作業區\DBTEST\kimi_test.md
 	(filename= 'C:\2023_Python\各項作業區\DBTEST\kimi_test.mdf'),
 	(filename= 'C:\2023_Python\各項作業區\DBTEST\kimi_g1.ndf')
 	FOR ATTACH
+	
