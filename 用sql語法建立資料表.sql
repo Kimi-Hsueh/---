@@ -130,3 +130,9 @@ go
 --在客戶table內刪除“公司名稱”的欄位
 alter table 客戶 drop column 公司名稱
 go
+
+EXEC sp_helpconstraint 客戶
+
+--刪除條件約束
+alter table 客戶 drop UQ_客戶_532B9214305E355E
+go
